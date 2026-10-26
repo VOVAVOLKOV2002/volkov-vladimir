@@ -8,7 +8,8 @@ body::after{background:radial-gradient(ellipse at center,transparent 50%,rgba(0,
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
 :focus-visible{outline:2px solid var(--am);outline-offset:3px}
-.mt,.h2,.logo,.cap b{font-family:Anton,Impact,'Arial Narrow',sans-serif;font-weight:400;text-transform:uppercase}
+.mt,.h2,.logo,.cap b{font-family:Oranienbaum,'Times New Roman',serif;font-weight:400;text-transform:uppercase}
+.logo{font-family:Anton,Impact,'Arial Narrow',sans-serif}
 .mt,.h2,.logo{background:linear-gradient(180deg,#f4f3ef 0%,#a3a7ae 48%,#dcdcdf 56%,#6c7179 100%);-webkit-background-clip:text;background-clip:text;color:transparent;overflow-wrap:anywhere}
 .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
 
@@ -31,7 +32,7 @@ img{max-width:100%;display:block}
 .hp{position:absolute;left:0;top:-6%;width:100%;height:112%;object-fit:cover;object-position:50% 25%;filter:blur(3px) brightness(.62) contrast(1.08) saturate(.85);transform:scale(1.12);will-change:transform}
 .hov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,13,16,.8) 0%,rgba(14,18,24,.25) 38%,rgba(11,13,16,.55) 70%,var(--bg) 100%),linear-gradient(90deg,rgba(11,13,16,.6),transparent 60%)}
 .hc{position:relative;width:100%}
-.mt{font-size:clamp(2.6rem,12.5vw,9rem);line-height:.98;letter-spacing:.015em}
+.mt{font-size:clamp(2.8rem,14vw,8.5rem);line-height:.98;letter-spacing:.015em}
 .role{margin-top:16px;color:var(--tx);letter-spacing:.38em;text-transform:uppercase;font-size:clamp(.8rem,3vw,1.05rem);display:flex;align-items:center;gap:14px}
 .role::before{content:"";width:40px;height:2px;background:var(--red2);flex:none}
 .geo{margin-top:10px;color:var(--st);font-size:.95rem;letter-spacing:.04em}
