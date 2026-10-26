@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Владимир Волков — оператор-постановщик</title>
+<meta name="description" content="Владимир Волков — оператор-постановщик из Москвы. Автомобили, спорт, клипы, реклама, репортаж, интервью. Выезд по всей России.">
+<meta name="theme-color" content="#0a1628">
+<!-- Замените URL на реальный адрес сайта; файлы иконок и og — в assets/ -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Владимир Волков — оператор-постановщик">
+<meta property="og:description" content="Автомобили, спорт, клипы, реклама, репортаж, интервью. Москва, выезд по всей России.">
+<meta property="og:image" content="https://vovavolkov2002.github.io/volkov-vladimir/assets/og.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="hd">
+  <a class="logo" href="#top"><img class="av" src="assets/avatar.jpg" alt="" width="36" height="36">ВЛАДИМИР ВОЛКОВ</a>
+  <nav class="nav" id="nav" aria-label="Меню">
+    <a href="#about">О себе</a><a href="#works">Работы</a><a href="#types">Виды съёмок</a><a href="#contacts">Контакты</a>
+  </nav>
+  <button class="burger" id="bg" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+</header>
+<div class="ov" id="ov"></div>
+
+<main id="top">
+<section class="hero">
+  <!-- Положите видео в assets/hero.mp4 и постер в assets/hero.jpg -->
+  <video id="hv" class="hv" muted loop playsinline preload="none" poster="assets/hero.jpg" data-src="assets/hero.mp4"></video>
+  <div class="hov"></div>
+  <div class="hc">
+    <img class="hav fu" src="assets/avatar.jpg" alt="Владимир Волков" width="96" height="96">
+    <h1 class="mt fu" style="--d:.1s">ВЛАДИМИР ВОЛКОВ</h1>
+    <p class="role fu" style="--d:.25s">оператор-постановщик</p>
+    <p class="geo fu" style="--d:.4s">Москва · выезд по всей России</p>
+    <div class="btns fu" style="--d:.55s">
+      <a class="btn pr" href="#works">Смотреть работы</a>
+      <a class="btn sc" href="https://t.me/VladimirVolkov_DP" target="_blank" rel="noopener">Написать в Telegram</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="about">
+  <div class="wrap two">
+    <div class="rv">
+      <h2 class="h2">О себе</h2>
+      <p>Владимир Волков — оператор-постановщик из Москвы, выезжает по всей России. Опыт работы на телевидении (СТС, ТНТ), сотрудничество с крупными брендами (Яндекс) и музыкантами. Снимал короткометражные фильмы, участник множества фестивалей. Опытен в каждом направлении съёмок — от автомобилей и спорта до клипов, рекламы, репортажей и интервью. Работает на собственном оборудовании.</p>
+    </div>
+    <!-- Замените assets/photo.jpg на своё фото -->
+    <div class="ph rv" style="--d:.15s"><img src="assets/photo.jpg" alt="Владимир Волков за работой" loading="lazy" onerror="this.remove()"><span>Фото</span></div>
+  </div>
+</section>
+
+<section class="sec alt" id="types">
+  <div class="wrap">
+    <h2 class="h2 rv">Виды съёмок</h2>
+    <div class="grid" id="tg"></div>
+  </div>
+</section>
+
+<section class="sec" id="works">
+  <div class="wrap">
+    <h2 class="h2 rv">Работы</h2>
+    <div class="grid" id="wg"></div>
+  </div>
+</section>
+
+<section class="sec alt" id="contacts">
+  <div class="wrap ct">
+    <h2 class="h2 rv">Контакты</h2>
+    <a class="big rv" href="https://t.me/VladimirVolkov_DP" target="_blank" rel="noopener">Написать в Telegram</a>
+    <p class="geo rv">Москва, выезд по России</p>
+    <!-- Добавьте email/телефон: <p class="geo"><a href="mailto:...">...</a></p> -->
+  </div>
+</section>
+</main>
+
+<footer><span>Владимир Волков</span><span>© <span id="yr">2026</span> Все права защищены</span></footer>
+
+<div class="md" id="md" role="dialog" aria-modal="true" aria-label="Видео" hidden>
+  <button class="x" id="mx" aria-label="Закрыть">×</button>
+  <div class="mb"><iframe id="fr" title="Видео" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
